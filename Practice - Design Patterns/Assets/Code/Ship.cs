@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Ships
 {
     public class Ship : MonoBehaviour
-{
+ {
     [Header("Input Settings")]
     [SerializeField] private IInput _input;
     
@@ -55,4 +55,5 @@ namespace Ships
         return _input.GetDirection();
     }
  }
+    
 }
