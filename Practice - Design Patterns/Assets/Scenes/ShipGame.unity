@@ -179,9 +179,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd4f227e3a764ff79ca846defb36bc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _useJoystick: 0
+  _useAI: 1
+  _usejoystick: 0
   _joystick: {fileID: 439913309}
   _ship: {fileID: 237814040}
+  limitMinPosition: 0.03
+  limitMaxPosition: 0.97
+  maxDistance: 7
 --- !u!4 &457680892
 Transform:
   m_ObjectHideFlags: 0
